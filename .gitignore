@@ -1,0 +1,54 @@
+# Blender files (project files too large for version control)
+Project_test1.blend
+Project_test1.blend1
+*.blend
+*.blend1
+*.blend2
+*.tmp
+*.autosave
+*.save
+
+# Cache and temporary directories
+*.cache/
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Environment
+.env
+.env.local
+
+# Large files (render cache, etc)
+*.exr
+*.cache
+
+# Render outputs (if using local renders folder for testing)
+# renders/*.exr
+
+# Node modules (if using any web-based tools)
+node_modules/
+
+# Never commit local settings
+.claude/settings.local.json
